@@ -4,7 +4,7 @@ import spacy
 from spacy.lang.en.stop_words import STOP_WORDS
 from string import punctuation
 
-fileObject= open('C:/Users/muham/OneDrive/Documents/max.txt', 'r')
+fileObject= open('sampletext.txt', 'r')
 text= fileObject.read()
 print(text)
 
